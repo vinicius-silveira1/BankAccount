@@ -10,11 +10,13 @@ public class BankAccount {
 
     public void open() {
         this.isOpen = true;
+        System.out.println("Your account is open. Welcome!");
         
     }
 
     public void close() {
         this.isOpen = false;
+        System.out.println("Your account is closed :(");
         
     }
 
